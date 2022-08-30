@@ -26,3 +26,8 @@ Your experience of exploring data might differ, but if you're new to exploring d
   ![Sample Trace Analytics View]({{site.url}}{{site.baseurl}}/images/observability-trace.png)
 6. Leverage [notebooks]({{site.url}}{{site.baseurl}}/observability-plugin/notebooks) to combine different visualizations and code blocks that you can share with team members.
   ![Sample Notebooks View]({{site.url}}{{site.baseurl}}/images/notebooks.png)
+
+
+## Anomaly Detection
+
+You can also check for anomalies in your Dashboard data with the Anomaly detection tool in OpenSearch Dashboards.
