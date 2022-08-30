@@ -21,7 +21,7 @@ docker pull public.ecr.aws/opensearchproject/opensearch:latest
 docker pull public.ecr.aws/opensearchproject/opensearch-dashboards:latest
 ```
 
-To download a specific version of OpenSearch or OpenSearch Dashboards, modify the image tag (`latest`) to point to a valid version number. For example, `docker pull opensearchproject/opensearch:2.2.0` will download the image corresponding to OpenSearch 1.3.0.
+To download a specific version of OpenSearch or OpenSearch Dashboards, modify the image tag (`latest`) to point to a valid version number. For example, `docker pull opensearchproject/opensearch:2.2.0` will download the image corresponding to OpenSearch 2.2.0.
 You also need to modify your `docker-compose.yml` file with the image version that you downloaded. For example:
 ` image: opensearchproject/opensearch:2.2.0` and `image: opensearchproject/opensearch-dashboards:2.2.0`
 
