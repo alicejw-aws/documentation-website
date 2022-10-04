@@ -8,6 +8,9 @@ nav_order: 15
 
 Index templates let you initialize new indexes with predefined mappings and settings. For example, if you continuously index log data, you can define an index template so that all of these indexes have the same number of shards and replicas.
 
+Do not use an asterisk (*) as a wildcard in an index pattern. That would break the system indexes used by OpenSearch Dashboards.
+{: .warning }
+
 ### Create a template
 
 To create an index template, use a POST request:
